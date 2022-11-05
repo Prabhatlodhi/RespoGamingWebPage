@@ -376,8 +376,8 @@ input {
 .remotesection {
   padding: 5% 0%;
   background-image: url(./allimages/Green\ and\ White\ Gaming\ YouTube\ Banner.png);
-  background-position: center;
-  background-repeat: no-repeat;
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
   background-size: contain;
   background-attachment: fixed;
   margin-top: 5%;
@@ -394,8 +394,9 @@ input {
 .alltextus {
   width: 65%;
   align-self: flex-start;
-  padding: 4.2%;
+  padding: 3.5%;
   /* color: #8e31b0; */
+   
   background-color: rgba(227, 255, 230, 0.7);
 }
 
@@ -407,8 +408,11 @@ input {
 .small_box1 {
   width: 48%;
   margin-top: 6%;
-  
+   
+  /* border: 1px solid red; */
 }
+
+ 
 
 .alltex p {
   padding-left: 22%;
