@@ -502,7 +502,7 @@ input {
 
 
       .aboutus{
-        width: 55%;
+        width: 80%;
         /* border: 1px solid red; */
       }
 
@@ -575,6 +575,17 @@ input {
 
     .small_box{
         margin: 8% 0%;
+    }
+
+    .aboutus{
+      width: 100%;
+      padding: 10%;
+       
+    }
+
+    .aboutus img{
+      width: 100%;
+       
     }
 
     .small_box1{
