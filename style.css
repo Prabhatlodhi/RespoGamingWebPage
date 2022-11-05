@@ -227,6 +227,7 @@ input {
   transform: rotateY(90deg);
   transition: all 0.5s ease-in-out;
   border-radius: 20px;
+   overflow-x: hidden;
 }
 
 .box:hover .box_content {
@@ -299,6 +300,7 @@ input {
   overflow-x: hidden;
   border-radius: 20px;
   box-shadow: 0px 0px 10px white;
+  overflow: hidden;
 }
 
 .box1:hover .box_content1 {
@@ -381,9 +383,18 @@ input {
   margin-top: 5%;
 }
 
+.aboutus{
+  width: 35%;
+}
+
+.aboutus img{
+  width: 100%;
+}
+
 .alltextus {
+  width: 65%;
   align-self: flex-start;
-  padding: 5%;
+  padding: 4.2%;
   /* color: #8e31b0; */
   background-color: rgba(227, 255, 230, 0.7);
 }
@@ -396,6 +407,7 @@ input {
 .small_box1 {
   width: 48%;
   margin-top: 6%;
+  
 }
 
 .alltex p {
@@ -409,6 +421,8 @@ input {
   flex-direction: column;
 }
 
+
+
 .icon {
   width: 50%;
   margin: 0 auto;
@@ -420,7 +434,7 @@ input {
 }
 
 .icon i {
-  font-size: 25px;
+  font-size: 22px;
   margin: 0% 2%;
 }
 
@@ -449,9 +463,9 @@ input {
 }
 
 /* =======================MEDIA QUERY FOR TAB===================== */
+
 @media screen and (max-width:821px){
     
-
     .logo1{
         width: 40%;
     }
@@ -462,7 +476,7 @@ input {
     }
 
     .box_content h2 {
-        font-size: 1em;
+        font-size: 1.5em;
     }
 
     .sectionpu h1{
@@ -483,18 +497,29 @@ input {
       }
 
 
-      .remotesection{
-        flex-wrap: wrap;
+      .aboutus{
+        width: 55%;
+        /* border: 1px solid red; */
+      }
+
+      .aboutus img{
+        width: 100%;
+      }
+
+      .alltextus{
+        width: 100%;
       }
       
     .aboutustext{
-        width: 80%;
-        margin: 0 auto;
+        width: 100%;
+        padding: 0% 13%;
+        /* border: 1px solid red; */
+        
     }
 
     .footer p{
         text-align: center;
-        width: 70%;
+        width: 65%;
         margin: 1% 0%;
         margin: 0 auto;
         padding: 1% 0%;
@@ -528,6 +553,17 @@ input {
         padding: 12% 0%;
     }
 
+    .section_card h1{
+      font-size: 2.5em;
+    }
+
+    .section_card p{
+      font-size: 1em;
+    }
+
+    .box_content h2{
+      font-size: 1.8em;
+    }
 
     .box_content p{
         display: inline-block;
@@ -545,6 +581,14 @@ input {
     .search_bar {
         width: 85%;
         /* border: 1px solid red; */
+    }
+
+    .aboutustext p {
+      font-size: 0.8em;
+    }
+
+    .iconhere p{
+      font-size: 0.7em;
     }
     
     
